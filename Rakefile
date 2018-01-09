@@ -5,7 +5,7 @@ task :console do
   sh 'pry -r ./init.rb'
 end
 
-USERNAME = 'rxe5207'
+USERNAME = 'rex5207'
 IMAGE = 'videopraise_notifier'
 VERSION = '0.1.0'
 WORKER_APP = 'ruby application/videos_summary.rb'
