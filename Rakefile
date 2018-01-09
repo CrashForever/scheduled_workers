@@ -8,7 +8,7 @@ end
 USERNAME = 'rxe5207'
 IMAGE = 'videopraise_notifier'
 VERSION = '0.1.0'
-WORKER_APP = 'ruby application/videos_summary.rb'
+WORKER_APP = 'ruby application/video_summary.rb'
 
 desc 'Build Docker image'
 task :worker do
